@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React from "react";
 
 type Ttitle = {
   text: string;
-  image?: string;
+  image?: string | StaticImageData;
 };
 
 function ButtonMain({ text, image }: Ttitle) {

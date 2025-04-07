@@ -46,7 +46,7 @@ function Header() {
         </div>
         {/* end 4image */}
         <div className="text-white flex justify-center mt-6">
-          <ButtonMain image={younes} text="Book a 15-min call" />
+          <ButtonMain image={younes.src} text="Book a 15-min call" />
         </div>
         <div className="flex justify-center items-center gap-2 mt-4">
           <span className=" relative flex size-3">
