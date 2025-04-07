@@ -1,10 +1,10 @@
+// next.config.ts
 const nextConfig = {
-  output: "export",
+  output: "export", // تنظیم برای export استاتیک
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },
-  basePath: "/zamin",
-  assetPrefix: "/zamin",
 };
 
 export default nextConfig;

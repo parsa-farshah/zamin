@@ -9,18 +9,18 @@ function Header() {
   return (
     <div className="flex justify-center">
       <Image
-        className="absolute mt-[135px] h-auto w-[950px] z-0"
+        className="absolute mt-[300px] md:mt-[135px] bg-cover h-auto  xl:max-w-[948px] xl:min-[900px]: w-full z-0"
         src={containerMain}
         alt="container main"
       />
       <div className="flex flex-col z-10 mt-[255px]  text-center text-black font-inter ">
-        <p className="flex gap-4 text-5xl justify-center items-center">
+        <p className="flex gap-4 text-2xl md:text-5xl justify-center items-center">
           We craft UI
           <Image src={uiImage} alt="logo Ui" />
           that attracts, and
         </p>
 
-        <div className="flex text-5xl gap-4 mt-[30px] justify-center items-center">
+        <div className="flex text-2xl md:text-5xl gap-4 mt-[30px] justify-center items-center">
           <span>UX</span>
           <div className="bg-[#FFFFFF] w-[45px] h-[45px] border border-[#D9D9D9] rounded-xl flex justify-center items-center">
             <span className="text-xl">&#128293;</span>
@@ -28,20 +28,42 @@ function Header() {
           <span>that keeps them coming</span>
         </div>
 
-        <p className="flex justify-center text-5xl mt-[30px]">back.</p>
+        <p className="flex justify-center text-2xl md:text-5xl mt-[30px]">
+          back.
+        </p>
         {/* 4image  */}
         <div className="flex flex-row-reverse justify-center mt-[120px] pr-[40px]">
           <div className="z-40 bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
-            <Image className="rounded-2xl" alt="imageYounes" src={younes} />
+            <Image
+              className="rounded-2xl"
+              alt="imageYounes"
+              src={younes}
+              layout="responsive"
+            />
           </div>
           <div className="z-30 relative left-[12px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
-            <Image className="rounded-2xl" src={younes} alt="imageYounes" />
+            <Image
+              className="rounded-2xl"
+              src={younes}
+              alt="imageYounes"
+              layout="responsive"
+            />
           </div>
           <div className="z-20 relative left-[24px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
-            <Image className="rounded-2xl" src={younes} alt="imageYounes" />
+            <Image
+              className="rounded-2xl"
+              src={younes}
+              alt="imageYounes"
+              layout="responsive"
+            />
           </div>
           <div className="z-10 relative left-[36px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
-            <Image className="rounded-2xl" src={younes} alt="imageYounes" />
+            <Image
+              className="rounded-2xl"
+              src={younes}
+              alt="imageYounes"
+              layout="responsive"
+            />
           </div>
         </div>
         {/* end 4image */}
