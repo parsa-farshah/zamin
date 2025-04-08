@@ -4,12 +4,14 @@ import containerMain from "../../public/image/containerMain.svg";
 import uiImage from "../../public/image/uiImage.svg";
 import younes from "../../public/image/younesImage.png";
 import ButtonMain from "./ButtonMain";
+import dashLineRow from "../../public/image/dashLineRow.svg";
+import WorkImages from "./WorkImages";
 
 function Header() {
   return (
-    <div className="flex justify-center">
+    <div className="w-[1051px] flex justify-center">
       <Image
-        className="absolute mt-[300px] md:mt-[135px] bg-cover h-auto  xl:max-w-[948px] xl:min-[900px]: w-full z-0"
+        className="absolute w-full mt-[300px] md:mt-[135px] bg-cover h-auto  xl:max-w-[948px] xl:min-[900px]: z-0"
         src={containerMain}
         alt="container main"
       />
@@ -76,6 +78,45 @@ function Header() {
             <span className="relative inline-flex size-3 rounded-full bg-green-600"></span>
           </span>
           <p> 2 Spots Abailable</p>
+        </div>
+        {/* section work */}
+        <div className="w-full mt-24">
+          <div>
+            <Image className="w-full" src={dashLineRow} alt="dash Line row" />
+          </div>
+          <div className="flex justify-center">
+            <div className="w-[208px] h-[48px] bg-[#FFFFFF] rounded-[12px] flex justify-around items-center ">
+              <div className="w-[32px] h-[4px] bg-[#1B1B1B] opacity-15"></div>
+              <div>
+                <p className="text-[#727272] font-inter">WORK</p>
+              </div>
+              <div className="w-[32px] h-[4px] bg-[#1B1B1B] opacity-15"></div>
+            </div>
+          </div>
+          <div>
+            <Image className="w-full" src={dashLineRow} alt="dash Line row" />
+          </div>
+          {/* work images */}
+          <div className="grid md:grid-cols-2 place-items-center mt-7  gap-5 px-5">
+            <div className="col-span-1  w-[450px] h-[300px]">
+              <WorkImages />
+            </div>
+            <div className="col-span-1 w-[450px] h-[300px] mt-12  md:mt-0">
+              <WorkImages />
+            </div>
+            <div className="col-span-1 w-[450px] h-[300px] mt-12 md:mt-7">
+              <WorkImages />
+            </div>
+            <div className="col-span-1 w-[450px] h-[300px] mt-12 md:mt-7">
+              <WorkImages />
+            </div>
+            <div className="col-span-1 w-[450px] h-[300px] mt-12 md:mt-7">
+              <WorkImages />
+            </div>
+            <div className="col-span-1 w-[450px] h-[300px] mt-12 md:mt-7">
+              <WorkImages />
+            </div>
+          </div>
         </div>
       </div>
     </div>
