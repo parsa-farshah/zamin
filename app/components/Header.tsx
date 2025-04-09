@@ -15,7 +15,7 @@ function Header() {
         src={containerMain}
         alt="container main"
       />
-      <div className="flex flex-col z-10 mt-[255px]  text-center text-black font-inter ">
+      <div className="flex flex-col z-10 mt-[255px]  text-center text-black font-inter p-7 md:p-5">
         <p className="flex gap-4 text-2xl md:text-5xl justify-center items-center">
           We craft UI
           <Image src={uiImage} alt="logo Ui" />
@@ -101,7 +101,7 @@ function Header() {
             <div className="col-span-1 w-[95%] md:w-[99%] md:h-[300px]">
               <WorkImages />
             </div>
-            <div className="col-span-1 w-[95%] md:w-[99%] h-[300px] mt-12  md:mt-0">
+            <div className="col-span-1 w-[95%] md:w-[99%] h-[300px] mt-4   md:mt-0">
               <WorkImages />
             </div>
             <div className="col-span-1 w-[95%] md:w-[99%] h-[300px] mt-12 md:mt-7">
