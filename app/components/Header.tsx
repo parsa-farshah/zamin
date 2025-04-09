@@ -98,22 +98,22 @@ function Header() {
           </div>
           {/* work images */}
           <div className="grid md:grid-cols-2 place-items-center mt-7  gap-5 px-5">
-            <div className="col-span-1 w-[75%] md:w-[99%] md:h-[300px]">
+            <div className="col-span-1 w-[95%] md:w-[99%] md:h-[300px]">
               <WorkImages />
             </div>
-            <div className="col-span-1 w-[75%] md:w-[99%] h-[300px] mt-12  md:mt-0">
+            <div className="col-span-1 w-[95%] md:w-[99%] h-[300px] mt-12  md:mt-0">
               <WorkImages />
             </div>
-            <div className="col-span-1 w-[75%] md:w-[99%] h-[300px] mt-12 md:mt-7">
+            <div className="col-span-1 w-[95%] md:w-[99%] h-[300px] mt-12 md:mt-7">
               <WorkImages />
             </div>
-            <div className="col-span-1 w-[75%] md:w-[99%] h-[300px] mt-12 md:mt-7">
+            <div className="col-span-1 w-[95%] md:w-[99%] h-[300px] mt-12 md:mt-7">
               <WorkImages />
             </div>
-            <div className="col-span-1 w-[75%]  md:w-[99%] h-[300px] mt-12 md:mt-7">
+            <div className="col-span-1 w-[95%]  md:w-[99%] h-[300px] mt-12 md:mt-7">
               <WorkImages />
             </div>
-            <div className="col-span-1 w-[75%] md:w-[99%] h-[300px] mt-12 md:mt-7">
+            <div className="col-span-1 w-[95%] md:w-[99%] h-[300px] mt-12 md:mt-7">
               <WorkImages />
             </div>
           </div>

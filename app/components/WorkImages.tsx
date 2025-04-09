@@ -38,7 +38,7 @@ function WorkImages() {
             </div>
           </div>
           {/* middle */}
-          <div className="flex items-center  gap-1 w-[50%] mr-[30px]">
+          <div className="flex items-center justify-center  gap-1 w-[50%] ">
             <div>
               <Image src={shield} alt="after" />
             </div>
@@ -58,8 +58,8 @@ function WorkImages() {
             </div>
           </div>
           {/* right */}
-          <div className="w-[40px]">
-            <div className="flex justify-between items-center gap-2 ">
+          <div className="w-[25%]">
+            <div className="flex justify-end items-center gap-2 ">
               <Image src={upload} alt="upload" />
               <Image src={share} alt="share" />
               <Image src={copy} alt="Copy" />
