@@ -16,13 +16,13 @@ function Header() {
         alt="container main"
       />
       <div className="flex flex-col z-10 mt-[255px]  text-center text-black font-inter p-7 md:p-5">
-        <p className="flex gap-4 text-2xl md:text-5xl justify-center items-center">
+        <p className="flex gap-4 text-md md:text-5xl justify-center items-center">
           We craft UI
-          <Image src={uiImage} alt="logo Ui" />
+          <Image className="" src={uiImage} alt="logo Ui" />
           that attracts, and
         </p>
 
-        <div className="flex text-2xl md:text-5xl gap-4 mt-[30px] justify-center items-center">
+        <div className="flex text-md md:text-5xl gap-4 mt-[30px] justify-center items-center">
           <span>UX</span>
           <div className="bg-[#FFFFFF] w-[45px] h-[45px] border border-[#D9D9D9] rounded-xl flex justify-center items-center">
             <span className="text-xl">&#128293;</span>
@@ -30,7 +30,7 @@ function Header() {
           <span>that keeps them coming</span>
         </div>
 
-        <p className="flex justify-center text-2xl md:text-5xl mt-[30px]">
+        <p className="flex justify-center text-md md:text-5xl mt-[30px]">
           back.
         </p>
         {/* 4image  */}
