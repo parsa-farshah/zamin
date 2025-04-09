@@ -16,9 +16,9 @@ function WorkImages() {
     <div>
       <div className="w-auto h-[337px] bg-[#FDFDFD] rounded-t-md rounded-b-2xl">
         {/* line top */}
-        <div className="px-4 py-3 flex justify-between items-center">
+        <div className="w-full px-4 py-3 flex justify-between items-center">
           {/* left */}
-          <div className="flex items-center">
+          <div className="flex items-center w-[25%]">
             {/* dots */}
             <div className="flex justify-between gap-3">
               <Image className="w-6" src={dots} alt="dots" />
@@ -38,7 +38,7 @@ function WorkImages() {
             </div>
           </div>
           {/* middle */}
-          <div className="flex items-center justify-between gap-1">
+          <div className="flex items-center  gap-1 w-[50%] mr-[30px]">
             <div>
               <Image src={shield} alt="after" />
             </div>
@@ -50,7 +50,7 @@ function WorkImages() {
                 </div>
 
                 <Image
-                  className="relative left-14"
+                  className="relative left-7 xl:left-14"
                   src={refresh2}
                   alt="refresh site"
                 />
@@ -58,10 +58,12 @@ function WorkImages() {
             </div>
           </div>
           {/* right */}
-          <div className="flex justify-between items-center gap-2">
-            <Image src={upload} alt="upload" />
-            <Image src={share} alt="share" />
-            <Image src={copy} alt="Copy" />
+          <div className="w-[40px]">
+            <div className="flex justify-between items-center gap-2 ">
+              <Image src={upload} alt="upload" />
+              <Image src={share} alt="share" />
+              <Image src={copy} alt="Copy" />
+            </div>
           </div>
         </div>
         <div className="flex justify-center">
