@@ -17,10 +17,10 @@ function Header() {
           src={containerMain}
           alt="container main"
           fill
-          className="w-full h-screen bg-cover bg-center top-[5%] md:top-[21%] z-0"
+          className="w-full  bg-cover bg-center top-10 md:top-20 z-0"
         />
 
-        <div className="max-w-5xl mx-auto px-4 relative top-[28%] z-10">
+        <div className="max-w-5xl mx-auto px-4 relative top-36 z-10">
           <p className="flex gap-4 text-md md:text-5xl justify-center items-center">
             We craft UI
             <Image className="" src={uiImage} alt="logo Ui" />
