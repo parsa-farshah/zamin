@@ -12,13 +12,13 @@ function Header() {
   return (
     <div className="w-full flex justify-center">
       <div className="relative h-screen  z-10  w-full  text-center text-black font-inter">
-        <div className="w-full hidden lg:block border-1 border-dashed border-gray-300 absolute top-34 left-[50%] mx-[-50%] "></div>
         <Image
           src={containerMain}
           alt="container main"
           fill
-          className="w-full  bg-cover bg-center top-10 md:top-20 z-0"
+          className="w-full h-auto pb-[30px] bg-cover bg-center z-0"
         />
+        <div className="w-full hidden lg:block border-1 border-dashed border-gray-300 absolute top-34 left-[50%] mx-[-50%] "></div>
 
         <div className="max-w-5xl mx-auto px-4 relative top-36 z-10">
           <p className="flex gap-4 text-md md:text-5xl justify-center items-center">
