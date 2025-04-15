@@ -11,16 +11,16 @@ import Services from "./Services";
 function Header() {
   return (
     <div className="w-full flex justify-center">
-      <div className="relative h-screen  z-10 top-2 w-full  text-center text-black font-inter">
-        <div className="w-full hidden lg:block border-1 border-dashed border-gray-300 absolute top-32 left-[50%] mx-[-50%] "></div>
+      <div className="relative h-screen  z-10  w-full  text-center text-black font-inter">
+        <div className="w-full hidden lg:block border-1 border-dashed border-gray-300 absolute top-34 left-[50%] mx-[-50%] "></div>
         <Image
           src={containerMain}
           alt="container main"
           fill
-          className=" w-full h-screen bg-cover bg-center z-0"
+          className="w-full h-screen bg-cover bg-center top-[5%] md:top-[21%] z-0"
         />
 
-        <div className="max-w-5xl mx-auto px-4 relative top-36 z-10">
+        <div className="max-w-5xl mx-auto px-4 relative top-[28%] z-10">
           <p className="flex gap-4 text-md md:text-5xl justify-center items-center">
             We craft UI
             <Image className="" src={uiImage} alt="logo Ui" />
@@ -38,44 +38,45 @@ function Header() {
           <p className="flex justify-center text-md md:text-5xl mt-[60px]">
             back.
           </p>
-          {/* 4image  */}
-          <div className="flex flex-row-reverse justify-center mt-[120px] pr-[40px]">
-            <div className="z-40 bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
-              <Image
-                className="rounded-2xl"
-                alt="imageYounes"
-                src={younes}
-                layout="responsive"
-              />
-            </div>
-            <div className="z-30 relative left-[12px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
-              <Image
-                className="rounded-2xl"
-                src={younes}
-                alt="imageYounes"
-                layout="responsive"
-              />
-            </div>
-            <div className="z-20 relative left-[24px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
-              <Image
-                className="rounded-2xl"
-                src={younes}
-                alt="imageYounes"
-                layout="responsive"
-              />
-            </div>
-            <div className="z-10 relative left-[36px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
-              <Image
-                className="rounded-2xl"
-                src={younes}
-                alt="imageYounes"
-                layout="responsive"
-              />
-            </div>
+        </div>
+        {/* 4image  */}
+        <div className="flex flex-row-reverse justify-center mt-[280px] pr-[40px]">
+          <div className="z-40 bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+            <Image
+              className="rounded-2xl"
+              alt="imageYounes"
+              src={younes}
+              layout="responsive"
+            />
+          </div>
+          <div className="z-30 relative left-[12px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+            <Image
+              className="rounded-2xl"
+              src={younes}
+              alt="imageYounes"
+              layout="responsive"
+            />
+          </div>
+          <div className="z-20 relative left-[24px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+            <Image
+              className="rounded-2xl"
+              src={younes}
+              alt="imageYounes"
+              layout="responsive"
+            />
+          </div>
+          <div className="z-10 relative left-[36px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+            <Image
+              className="rounded-2xl"
+              src={younes}
+              alt="imageYounes"
+              layout="responsive"
+            />
           </div>
         </div>
+
         {/* end 4image */}
-        <div className="text-white flex justify-center mt-40 ">
+        <div className="text-white flex justify-center mt-10 ">
           <ButtonMain image={younes.src} text="Book a 15-min call" />
         </div>
         <div className="flex justify-center items-center gap-2 mt-4">
