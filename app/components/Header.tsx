@@ -16,7 +16,7 @@ function Header() {
           src={containerMain}
           alt="container main"
           fill
-          className="w-full h-auto pb-[30px] bg-cover bg-center z-0"
+          className="w-full h-auto pb-[30px] top-0 bg-cover bg-center z-0"
         />
         <div className="w-full hidden lg:block border-1 border-dashed border-gray-300 absolute top-34 left-[50%] mx-[-50%] "></div>
 
