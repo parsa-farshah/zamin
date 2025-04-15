@@ -1,21 +1,31 @@
 import Navbar from "./components/Navbar";
-import DashLine from "./components/DashLine";
+import DashLine from "./components/DashLineLeft";
 
 import Header from "./components/Header";
 import MiliMetr from "./components/MiliMetr";
+import DashLineLeft from "./components/DashLineLeft";
+import DashLineRight from "./components/DashLineRight";
 
 export default function Home() {
   return (
-    <div className="w-full h-auto flex justify-center">
-      <div className="xl:flex hidden ">
-        <DashLine />
+    <div className="w-full h-auto grid grid-cols-12">
+      {/* Dash Line Left */}
+      <div className="hidden lg:block col-span-2">
+        <DashLineLeft />
       </div>
-      <div className=" md:flex">
-        <MiliMetr />
+
+      {/* Main Content */}
+      <div className="col-span-12 lg:col-span-8">
+        <div className="flex flex-col items-center">
+          <Navbar />
+          <Header />
+          <MiliMetr />
+        </div>
       </div>
-      <div className="flex justify-center w-full xl:w-[951px]">
-        <Navbar />
-        <Header />
+
+      {/* Dash Line Right */}
+      <div className="hidden lg:block col-span-2">
+        <DashLineRight />
       </div>
     </div>
   );

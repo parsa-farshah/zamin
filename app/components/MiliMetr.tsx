@@ -5,16 +5,16 @@ import Image from "next/image";
 function MiliMetr() {
   return (
     <div>
-      <Image
-        className="absolute top-0 xl:left-[200px] left-0"
+      {/* <Image
+        className="absolute top-0 lg:left-[160px] xl:left-[200px] left-0"
         src={miliMetr}
         alt="mili Metr"
       />
       <Image
-        className="absolute top-0  xl:right-[200px] right-0"
+        className="absolute top-0  lg:right-[190px] xl:right-[200px] right-0"
         src={miliMetr2}
         alt="mili Metr"
-      />
+      /> */}
     </div>
   );
 }

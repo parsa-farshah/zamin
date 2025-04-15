@@ -6,70 +6,77 @@ import younes from "../../public/image/younesImage.png";
 import ButtonMain from "./ButtonMain";
 import dashLineRow from "../../public/image/dashLineRow.svg";
 import WorkImages from "./WorkImages";
+import dashLine from "./../../public/image/lineHorizanal.png";
+import Services from "./Services";
 
 function Header() {
   return (
-    <div className="w-[1051px] flex justify-center">
-      <Image
-        className="absolute w-full mt-[300px] md:mt-[135px] bg-cover h-auto  xl:max-w-[948px] xl:min-[900px]: z-0"
-        src={containerMain}
-        alt="container main"
-      />
-      <div className="flex flex-col z-10 mt-[255px]  text-center text-black font-inter p-7 md:p-5">
-        <p className="flex gap-4 text-md md:text-5xl justify-center items-center">
-          We craft UI
-          <Image className="" src={uiImage} alt="logo Ui" />
-          that attracts, and
-        </p>
+    <div className="w-full flex justify-center">
+      <div className="relative h-screen  z-10 top-2 w-full  text-center text-black font-inter">
+        <div className="w-full hidden lg:block border-1 border-dashed border-gray-300 absolute top-32 left-[50%] mx-[-50%] "></div>
+        <Image
+          src={containerMain}
+          alt="container main"
+          fill
+          className=" w-full h-screen bg-cover bg-center z-0"
+        />
 
-        <div className="flex text-md md:text-5xl gap-4 mt-[30px] justify-center items-center">
-          <span>UX</span>
-          <div className="bg-[#FFFFFF] w-[45px] h-[45px] border border-[#D9D9D9] rounded-xl flex justify-center items-center">
-            <span className="text-xl">&#128293;</span>
-          </div>
-          <span>that keeps them coming</span>
-        </div>
+        <div className="max-w-5xl mx-auto px-4 relative top-36 z-10">
+          <p className="flex gap-4 text-md md:text-5xl justify-center items-center">
+            We craft UI
+            <Image className="" src={uiImage} alt="logo Ui" />
+            that attracts, and
+          </p>
 
-        <p className="flex justify-center text-md md:text-5xl mt-[30px]">
-          back.
-        </p>
-        {/* 4image  */}
-        <div className="flex flex-row-reverse justify-center mt-[120px] pr-[40px]">
-          <div className="z-40 bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
-            <Image
-              className="rounded-2xl"
-              alt="imageYounes"
-              src={younes}
-              layout="responsive"
-            />
+          <div className="flex text-md md:text-5xl gap-4 mt-[30px] justify-center items-center">
+            <span>UX</span>
+            <div className="bg-[#FFFFFF] w-[45px] h-[45px] border border-[#D9D9D9] rounded-xl flex justify-center items-center">
+              <span className="text-xl">&#128293;</span>
+            </div>
+            <span>that keeps them coming</span>
           </div>
-          <div className="z-30 relative left-[12px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
-            <Image
-              className="rounded-2xl"
-              src={younes}
-              alt="imageYounes"
-              layout="responsive"
-            />
-          </div>
-          <div className="z-20 relative left-[24px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
-            <Image
-              className="rounded-2xl"
-              src={younes}
-              alt="imageYounes"
-              layout="responsive"
-            />
-          </div>
-          <div className="z-10 relative left-[36px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
-            <Image
-              className="rounded-2xl"
-              src={younes}
-              alt="imageYounes"
-              layout="responsive"
-            />
+
+          <p className="flex justify-center text-md md:text-5xl mt-[60px]">
+            back.
+          </p>
+          {/* 4image  */}
+          <div className="flex flex-row-reverse justify-center mt-[120px] pr-[40px]">
+            <div className="z-40 bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+              <Image
+                className="rounded-2xl"
+                alt="imageYounes"
+                src={younes}
+                layout="responsive"
+              />
+            </div>
+            <div className="z-30 relative left-[12px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+              <Image
+                className="rounded-2xl"
+                src={younes}
+                alt="imageYounes"
+                layout="responsive"
+              />
+            </div>
+            <div className="z-20 relative left-[24px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+              <Image
+                className="rounded-2xl"
+                src={younes}
+                alt="imageYounes"
+                layout="responsive"
+              />
+            </div>
+            <div className="z-10 relative left-[36px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+              <Image
+                className="rounded-2xl"
+                src={younes}
+                alt="imageYounes"
+                layout="responsive"
+              />
+            </div>
           </div>
         </div>
         {/* end 4image */}
-        <div className="text-white flex justify-center mt-6">
+        <div className="text-white flex justify-center mt-40 ">
           <ButtonMain image={younes.src} text="Book a 15-min call" />
         </div>
         <div className="flex justify-center items-center gap-2 mt-4">
@@ -93,9 +100,7 @@ function Header() {
               <div className="w-[32px] h-[4px] bg-[#1B1B1B] opacity-15"></div>
             </div>
           </div>
-          <div>
-            <Image className="w-full" src={dashLineRow} alt="dash Line row" />
-          </div>
+          <div className="w-full border-1 border-dashed border-gray-300 absolute left-[50%] mx-[-50%] "></div>
           {/* work images */}
           <div className="grid md:grid-cols-2 place-items-center mt-7  gap-5 px-5">
             <div className="col-span-1 w-[95%] md:w-[99%] md:h-[300px]">
@@ -118,6 +123,8 @@ function Header() {
             </div>
           </div>
         </div>
+        {/* services */}
+        <Services />
       </div>
     </div>
   );

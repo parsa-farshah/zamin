@@ -5,7 +5,7 @@ import ButtonMain from "./ButtonMain";
 
 function Navbar() {
   return (
-    <div className="bg-white w-[361px] md:w-[537px] h-[56px] fixed top-[38px] rounded-[19px] shadow border-2 flex justify-between px-[12px] items-center z-20">
+    <div className="bg-white w-[361px] md:w-[537px] h-[56px] fixed top-[38px] rounded-[19px] shadow border-2 flex justify-between px-[12px] items-center  z-20">
       <div className="flex items-center gap-3 ">
         <Image src={logoZamin} alt="" />
         <h1 className="text-black font-bold font-inter">Zamin</h1>
