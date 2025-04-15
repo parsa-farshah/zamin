@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import rightSideBarImage from "../../public/image/Right Sidebar.svg";
 import dashLine from "./../../public/image/lineHorizanal.png";
 function DashLineRight() {
   return (

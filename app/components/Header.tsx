@@ -6,7 +6,6 @@ import younes from "../../public/image/younesImage.png";
 import ButtonMain from "./ButtonMain";
 import dashLineRow from "../../public/image/dashLineRow.svg";
 import WorkImages from "./WorkImages";
-import dashLine from "./../../public/image/lineHorizanal.png";
 import Services from "./Services";
 
 function Header() {

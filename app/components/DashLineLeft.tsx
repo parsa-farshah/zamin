@@ -1,6 +1,4 @@
 import Image from "next/image";
-
-import leftSideBar from "../../public/image/Left Sidebar.svg";
 import dashLine2 from "./../../public/image/lineHorizanal2.png";
 
 function DashLineLeft() {
