@@ -1,6 +1,11 @@
 import React from "react";
 import dashLineRow from "../../public/image/dashLineRow.svg";
 import Image from "next/image";
+import ServicesLabel from "./ServicesLabel";
+import designLogo from "../../public/image/designLogo.svg";
+
+import ServicesImaes from "./ServicesImaes";
+
 function Services() {
   return (
     <div className="w-full mt-24">
@@ -16,7 +21,12 @@ function Services() {
           <div className="w-[32px] h-[4px] bg-[#1B1B1B] opacity-15"></div>
         </div>
       </div>
-      <div className="w-full border-1 border-dashed border-gray-300 absolute left-[50%] mx-[-50%] "></div>
+      <div>
+        <Image className="w-full" src={dashLineRow} alt="dash Line row" />
+      </div>
+      <ServicesLabel text="Design" image={designLogo} />
+      <ServicesImaes />
+      <Image className="w-full" src={dashLineRow} alt="dash Line row" />
     </div>
   );
 }

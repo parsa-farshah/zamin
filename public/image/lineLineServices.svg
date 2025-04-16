@@ -1,0 +1,20 @@
+<svg width="49" height="46" viewBox="0 0 49 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M48 44.5944L48 1.59436" stroke="#D9D9D9" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2 6"/>
+<g clip-path="url(#clip0_490_4943)">
+<line y1="-0.5" x2="71.1688" y2="-0.5" transform="matrix(-0.679954 0.733255 -0.975009 0.222164 48.0003 -47.3292)" stroke="#D9D9D9"/>
+<line y1="-0.5" x2="71.1688" y2="-0.5" transform="matrix(-0.679954 0.733255 -0.975009 0.222164 48 -38.0531)" stroke="#D9D9D9"/>
+<line y1="-0.5" x2="71.1688" y2="-0.5" transform="matrix(-0.679954 0.733255 -0.975009 0.222164 48.0003 -28.777)" stroke="#D9D9D9"/>
+<line y1="-0.5" x2="71.1688" y2="-0.5" transform="matrix(-0.679954 0.733255 -0.975009 0.222164 48 -19.5009)" stroke="#D9D9D9"/>
+<line y1="-0.5" x2="71.1688" y2="-0.5" transform="matrix(-0.679954 0.733255 -0.975009 0.222164 48 -10.2247)" stroke="#D9D9D9"/>
+<line y1="-0.5" x2="71.1688" y2="-0.5" transform="matrix(-0.679954 0.733255 -0.975009 0.222164 48.0003 -0.948608)" stroke="#D9D9D9"/>
+<line y1="-0.5" x2="71.1688" y2="-0.5" transform="matrix(-0.679954 0.733255 -0.975009 0.222164 48 8.32751)" stroke="#D9D9D9"/>
+<line y1="-0.5" x2="71.1688" y2="-0.5" transform="matrix(-0.679954 0.733255 -0.975009 0.222164 48.0003 17.6036)" stroke="#D9D9D9"/>
+<line y1="-0.5" x2="71.1688" y2="-0.5" transform="matrix(-0.679954 0.733255 -0.975009 0.222164 48 26.8798)" stroke="#D9D9D9"/>
+<line y1="-0.5" x2="71.1688" y2="-0.5" transform="matrix(-0.679954 0.733255 -0.975009 0.222164 48 36.1559)" stroke="#D9D9D9"/>
+</g>
+<defs>
+<clipPath id="clip0_490_4943">
+<rect width="48" height="42" fill="white" transform="translate(1.52588e-05 2.09436)"/>
+</clipPath>
+</defs>
+</svg>

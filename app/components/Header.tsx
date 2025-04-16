@@ -20,7 +20,7 @@ function Header() {
         />
         <div className="w-full hidden lg:block border-1 border-dashed border-gray-300 absolute top-34 left-[50%] mx-[-50%] "></div>
 
-        <div className="max-w-5xl mx-auto px-4 relative top-36 z-10">
+        <div className="max-w-5xl mx-auto px-4 relative top-40 md:top-36 z-10">
           <p className="flex gap-4 text-md md:text-5xl justify-center items-center">
             We craft UI
             <Image className="" src={uiImage} alt="logo Ui" />

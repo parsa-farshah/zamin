@@ -1,5 +1,6 @@
 import Image from "next/image";
 import dashLine2 from "./../../public/image/lineHorizanal2.png";
+import whiteLeft from "../../public/image/whiteLeft.svg";
 
 function DashLineLeft() {
   return (
@@ -16,6 +17,11 @@ function DashLineLeft() {
           alt="dash Line"
         />
       </div>
+      <Image
+        className="pt-16 w-[90%] h-full"
+        src={whiteLeft}
+        alt="white Left"
+      />
     </div>
   );
 }

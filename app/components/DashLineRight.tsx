@@ -16,6 +16,7 @@ function DashLineRight() {
           alt="dash Line"
         />
       </div>
+      
     </div>
   );
 }
