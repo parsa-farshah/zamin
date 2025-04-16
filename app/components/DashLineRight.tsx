@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import dashLine from "./../../public/image/lineHorizanal.png";
+import whiteRight from "../../public/image/whiteRight.svg";
 function DashLineRight() {
   return (
     <div className="relative max-w-full">
@@ -16,7 +17,11 @@ function DashLineRight() {
           alt="dash Line"
         />
       </div>
-      
+      <Image
+        className="pt-16 w-[90%] h-full"
+        src={whiteRight}
+        alt="white Left"
+      />
     </div>
   );
 }
