@@ -3,7 +3,7 @@ import React from "react";
 import servicesLineRight from "../../public/image/lineServiceImages.svg";
 import servicesLineLeft from "../../public/image/servicesImagesleft.svg";
 import ServicesImageCompponent from "./ServicesImageCompponent";
-import bottomServicesMobile from "../../public/image/bottom services mobile.svg";
+
 
 import lineBottomServices from "../../public/image/servicesLineBottom.svg";
 
@@ -47,11 +47,6 @@ function ServicesImaes({
         <div className="w-full gap-3 h-[196px] flex ">
           <ServicesImageCompponent text={txt1} image={img1} />
         </div>
-        <Image
-          className="w-full h-full flex "
-          src={lineBottomServices}
-          alt="line line"
-        />
         {/* <Image
           className="w-full h-full flex md:hidden"
           src={bottomServicesMobile}
