@@ -3,7 +3,6 @@ import React from "react";
 import servicesLineRight from "../../public/image/lineServiceImages.svg";
 import servicesLineLeft from "../../public/image/servicesImagesleft.svg";
 import ServicesImageCompponent from "./ServicesImageCompponent";
-import bottomServicesMobile from "../../public/image/bottom services mobile.svg";
 import lineBottomServices from "../../public/image/servicesLineBottom.svg";
 
 interface IservisesImages {
