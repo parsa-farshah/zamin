@@ -30,34 +30,36 @@ function Services() {
       <div>
         <Image className="w-full" src={dashLineRow} alt="dash Line row" />
       </div>
-      {/* design */}
-      <div>
-        <ServicesLabel text="Design" image={designLogo} />
-        <div className="relative">
-          <ServicesImaes
-            txt1="UI Design"
-            img1={uiDesign}
-            txt2="Design system"
-            img2={designSystem}
-            txt3="UX Research"
-            img3={uxReasearch}
-          />
-        </div>
+      <div className="flex flex-col gap-0">
+        {/* design */}
+        <div>
+          <ServicesLabel text="Design" image={designLogo} />
+          <div className="relative">
+            <ServicesImaes
+              txt1="UI Design"
+              img1={uiDesign}
+              txt2="Design system"
+              img2={designSystem}
+              txt3="UX Research"
+              img3={uxReasearch}
+            />
+          </div>
 
-        <Image className="w-full" src={dashLineRow} alt="dash Line row" />
-      </div>
-      {/* develop */}
-      <div>
-        <ServicesLabel text="Develop" image={developLogo} />
-        <ServicesImaes
-          txt1="Web Development"
-          img1={webDevelop}
-          txt2="Technology"
-          img2={technology}
-          txt3="Library"
-          img3={library}
-        />
-        <Image className="w-full" src={dashLineRow} alt="dash Line row" />
+          <Image className="w-full" src={dashLineRow} alt="dash Line row" />
+        </div>
+        {/* develop */}
+        <div>
+          <ServicesLabel text="Develop" image={developLogo} />
+          <ServicesImaes
+            txt1="Web Development"
+            img1={webDevelop}
+            txt2="Technology"
+            img2={technology}
+            txt3="Library"
+            img3={library}
+          />
+          <Image className="w-full" src={dashLineRow} alt="dash Line row" />
+        </div>
       </div>
     </div>
   );
